@@ -18,7 +18,7 @@ checkForSteamAchievements = function (...args) {
 				if (Object.values(masteryCache).some(m => Object.values(m).includes(99))) {
 					unlockSteamAchievement(achievementNames[i], i);
 				}
-                break;
+        break;
 		}
 	}
 };
